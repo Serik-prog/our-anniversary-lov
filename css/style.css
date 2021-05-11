@@ -1,0 +1,380 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+li{
+	text-decoration: none;
+	list-style: none;
+}
+
+.firstpage{
+	background-color: #282C37;
+	width: 100%;
+	height: 600px;
+}
+.container{
+	padding-top: 30px;
+	color:  #D9E1E8;
+	max-width: 1160px;
+	margin-right: 180px;
+	margin-left: 180px;
+}
+h1{
+	font-size: 76px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	max-width: 586px;
+	max-height: 280px;
+	display: inline-block;
+}
+
+.firstimage{
+	max-height: 480px;
+	max-width: 560px;
+	float: right;
+	position: relative;
+	bottom: 280px;
+}
+.sectext{
+	margin-top: 10px;
+	font-weight: 300;
+	font-size: 28px;
+	font-family: 'Roboto', sans-serif;
+	width: 275px;
+}
+.butt{
+	border: 1px solid #D9E1E8;
+	font-weight: 300;
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	padding-top: 10px;
+	margin-top: 20px;
+	width: 210px;
+	height: 50px;
+	display: block;
+	position: relative;
+	transition:  .5s;
+	overflow: hidden;
+}
+div a{
+	color: #D9E1E8;
+}
+.butt::before,
+.butt::after  {
+	position: absolute;
+	content: '';
+	width: 100%;
+	height: 100%;
+	background: #D9E1E8;
+	top: 0;
+	left: -100%;
+	opacity: .5;
+	transition: .4s;
+}
+.butt::after{
+	opacity: 1;
+	transition-delay: .2s;
+}
+
+.butt:hover{
+	color: #282C37;
+}
+
+.butt:hover::before,
+.butt:hover::after {
+	left: 0;
+}
+.secondpage{
+	background-color: #D9E1E8;
+	width: 100%;
+	height: 2300px;
+}
+.container1{
+	max-width: 1160px;
+	margin-right: 180px;
+	margin-left: 180px;
+}
+.loving{
+	color: #282C37;
+}
+
+.beard{
+	margin-top: 50px;
+	width: 440px;
+	max-height: 560px;
+}
+.ilu{
+	font-weight: 700;
+	font-size: 60px;
+	font-family:  'Montserrat', sans-serif;
+	color: #282C37;
+	float: right;
+	position: relative;
+	bottom: 500px;
+	text-align: left;
+	width: 560px;
+}
+.ilularge{
+	font-weight: 400;
+	font-size: 28px;
+	font-family: 'Roboto', sans-serif;
+	position: relative;
+	bottom: 400px;
+	left: 600px;
+	max-width: 500px;
+	color: #282C37;
+}
+.O{
+	font-size: 76px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	position: relative;
+	bottom: 150px;
+	margin:0 auto;
+	border-bottom: 5px solid #282C37;
+	text-align: center;
+}
+.dilya{
+	font-weight: 700;
+	font-size: 60px;
+	font-family:  'Montserrat', sans-serif;
+	position: relative;
+	bottom: 120px;
+}
+.demon{
+	max-width: 500px;
+	max-height:700px;
+	float: right;
+	position: relative;
+	bottom: 300px;
+}
+.girl{
+	font-weight: 400;
+	font-size: 28px;
+	font-family: 'Roboto', sans-serif;
+	position: relative;
+	bottom: 100px;
+	max-width: 660px;
+}
+.serik{
+	font-weight: 700;
+	font-size: 60px;
+	font-family:  'Montserrat', sans-serif;
+	width: 660px;
+	position: relative;
+	left: 500px;
+	top: 100px;
+}
+.toxic{
+	max-width: 500px;
+	max-height: 600px;
+	float: left;
+}
+.boy{
+	font-weight: 400;
+	font-size: 28px;
+	font-family: 'Roboto', sans-serif;
+	max-width: 660px;
+	float: right;
+	position: relative;
+	bottom: 30px;
+}
+.thirthpage{
+	background-color: #282C37;
+	color: #D9E1E8;
+	height: 4900px;
+	width: 100%;
+}
+.container2{
+	max-width: 1160px;
+	margin-right: 180px;
+	margin-left: 180px;
+}
+.dream{
+	font-size: 64px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	border-bottom: 5px solid  #D9E1E8;
+	max-width: 670px;
+	margin: 0 auto;
+	text-align: center;
+}
+.americ,.japan,.money,.brain,.happy, .meethistory{
+	font-weight: 700;
+	font-size: 60px;
+	font-family:  'Montserrat', sans-serif;
+	margin: 0 auto;
+	width: 440px;
+	text-align: center;
+	margin-top: 70px;
+}
+.americpicture,.japanpicture,.moneypicture,.brainpicture,.happypicture{
+	margin-top: 30px;
+	max-width: 1160px;
+	height: 300px;
+}
+.americdream,.japandream,.moneydream,.braindream,.happydream{
+	font-weight: 400;
+	font-size: 28px;
+	font-family: 'Roboto', sans-serif;
+	max-width: 1160px;
+}
+
+.history{
+	font-size: 64px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	border-bottom: 5px solid  #D9E1E8;
+	max-width: 750px;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+	top: 100px;
+}
+.sliderbig{
+	margin-top: 130px;
+}
+.slider__itembig{
+	text-align: center;
+}
+.slide__imgbig{
+	width: 700px;
+	height: 500px;
+}
+
+.audiohistory{
+	width: 500px;
+	margin: auto;
+	margin-top: 30px;
+	display: block;
+}
+.wrapper{
+	padding: 0px 50px;
+}
+.slider{
+	width: 1160px;
+	margin: 0 auto;
+}
+.slide__img{
+	width: 210px;
+	height: 230px;
+}}
+.slick-list {
+	overflow: hidden;
+}
+.slick-track{
+	display: flex;
+}
+.slider{
+	margin-top: 50px;
+	position: relative;
+	padding:0px 50px;
+}
+.slider .slick-dots{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.slider .slick-dots li{
+	list-style: none;
+	margin: 0px 8px;
+}
+.slider .slick-dots li button{
+	font-size: 0;
+	width: 10px;
+	height: 10px;
+	background-color: #D9E1E8;
+	border-radius: 50%;
+
+}
+.slick-dots li.slick-active button{
+	background-color: transparent;
+	border: 1px solid #D9E1E8;
+}
+.slider__item{
+	transition: all 0.3s ease 0s;
+	opacity: 0.2;
+	text-align: center;
+}
+.slider__item.slick-center{
+	opacity: 1;
+}
+.forthpage{
+	width: 100%;
+	height: 4050px;
+	background-color: #D9E1E8;
+}
+.container3{
+	max-width: 1160px;
+	margin-right: 180px;
+	margin-left: 180px;
+	color: #282C37;
+}
+.ourdesire{
+	font-size: 76px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	border-bottom: 5px solid #282C37;
+	max-width: 500px;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+	top: 100px;
+}
+.humanpicture{
+	width: 250px;
+	height: 250px;
+	float: left;
+}
+.human,.ayana,.bota,.dana,.miras,.tosha,.zulfya,.alina,.kuns{
+	margin-top: 100px;
+	font-weight: 700;
+	font-size: 48px;
+	font-family:  'Montserrat', sans-serif;
+	display: flex;
+	justify-content: center;
+	width: 250px;
+}
+.desire{
+	padding-left: 30px;
+    display: flex;
+    align-items: center;
+	height: 250px;
+	align-items: center;
+	width: 800px;
+	font-weight: 400;
+	font-size: 24px;
+	font-family: 'Roboto', sans-serif;
+	max-width: 1160px;
+	float: left;
+}
+.ayana,.bota,.dana,.miras,.tosha,.zulfya,.alina,.kuns{
+	margin-top: 350px;
+}
+.iluaudio{
+	display: block;
+	width: 500px;
+	margin: auto;
+	height: 150px;
+}
+.forever{
+	font-weight: 700;
+	font-size: 60px;
+	font-family:  'Montserrat', sans-serif;
+	text-align: center;
+	margin-top: 25px;
+}
+
+
+@media screen and (max-width: 1400px) {
+	.container, .container1, .container2, .container3{
+		margin-left: 50px;
+		margin-right: 50px;
+	}
+	
+}
